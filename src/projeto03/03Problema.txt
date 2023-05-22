@@ -1,0 +1,10 @@
+1. Crie uma classe Televisão com as características volume e canal.
+
+2. Crie uma classe ControleRemoto que controla a televisão. A classe ControleRemoto terá o método main e 
+vai instanciar uma Televisão. Quando criar/instanciar a TV, o volume deve estar 0 e o canal 0 (Obs.: isso é feito no construtor). 
+Após criada uma TV, é possível aumentar e diminuir o volume (isso são dois métodos na classe Televisão), e trocar o canal 
+(outro método que recebe o novo canal e altera o canal da TV).
+A classe Controle remoto deve mostrar como a TV está, ou seja, o canal e o volume, ao criá-la (usar o método toString), 
+deve alterar o canal, aumentar o volume, diminuir o volume e sempre que executar uma das operações, deve mostrar novamente o 
+estado da TV.
+

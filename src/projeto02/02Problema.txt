@@ -1,0 +1,39 @@
+1. Dada a classe Cadastro que instancia um cliente e mostra os dados do cliente (de duas formas – uma delas 
+precisa da criação do método toString), crie a classe Cliente com o construtor conforme chamado pela classe Cadastro, 
+e com os métodos sets e gets usados pela classe cadastro
+
+public class Cadastro {
+
+	public static void main(String[] args) {
+		
+		Cliente cliente = new Cliente ("Maria");
+		cliente.setTelefone("9823-2323");
+		cliente.setIdade(20);
+		
+		System.out.println("Cliente : " + cliente.getNome() + " - Idade : " + cliente.getIdade() + " - Telefone : " + cliente.getTelefone());
+		
+		System.out.println(cliente);
+	}
+
+}
+2. Dada a classe CadastroMultiplo que instancia 5 clientes e mostra os dados dos clientes em um laço, use a classe Cliente 
+do exercício anterior e complete a classe CadastroMultiplo para instanciar os 5 clientes e mostrar os dados
+
+public class CadastroMultiplo {
+	
+	public static void main(String[] args) {
+		
+		Cliente[] cliente = new Cliente[5];
+		
+		cliente[0] = new Cliente("Maria");
+		cliente[0].setIdade(20);
+		cliente[0].setTelefone("999-8899");
+		
+		/* complete aqui  */
+		
+		for (int i=0;i<cliente.length;i++) {
+			System.out.println(cliente[i]);
+			
+		}
+	}
+}

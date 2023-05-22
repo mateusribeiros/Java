@@ -1,0 +1,24 @@
+Criar uma classe para representar Robôs aspiradores que se deslocam nos eixos X,Y (usando as regras do encapsulamento).
+
+Um Robô deve ter sua identificação (número), status (ligado, andando, parado e desligado), posicaoX, 
+posicaoY, quantidade de pó, limite de pó.
+
+Um robô executa as seguintes operações: ligar, desligar, aspirar, andar, parar.
+
+Crie um construtor que inicializa o robô como desligado nas posições X=0, Y=0, quantidade de pó = 0 e limite de pó (a definir).
+
+Requisitos das operações:
+- as operações de andar, parar e aspirar não são possíveis se o robô estiver desligado, ele precisa primeiramente ser ligado.
+- ligar : altera o status do robô para ligado.
+- desligar : alterar o status do robô para desligado.
+- andar : recebe como parâmetro dois valores) que mostram quantos pontos nos eixos x e y ele vai andar. Soma esses valores recebidos
+ aos atributos posiçãoX e posiçãoY, também altera o status para andando. 
+- aspirar :  recebe um valor referente à quantidade de pó a ser aspirado e soma esse valor ao valor do atributo quantidade de pó. 
+Deve-se observar o limite de pó do aspirador. Caso atinja o limite, o aspirador deve ser automaticamente desligado e informado 
+sobre o limite.
+- parar : altera o status para parado
+
+Criar um método toString para mostrar todos os dados do robô.
+
+Criar também uma classe principal que instancie 2 robôs e execute as operações de ligar, desligar, andar, parar, aspirar, 
+mostrando os dados do robô depois de cada operação.

@@ -1,0 +1,36 @@
+1. Dada a classe Aluno com seu construtor e demais métodos, implemente uma outra classe Principal que: instancie um aluno, 
+realize a matricula do aluno (chamar o método matricular) e mostre os dados do aluno (chamar toString), depois altere o curso 
+(chamar o método setCurso), altere o ano (chamar o método setAno) e depois mostre novamente os dados alterados (toString).
+ 
+public class Aluno {
+	private String nome;
+	private int matricula;
+	private int ano;
+	private String curso;
+	
+	Aluno (String nome) {
+		this.nome = nome;
+	}
+	
+	public void matricular (int matricula, String curso, int ano) {
+		this.matricula = matricula;
+		this.ano = ano;
+		this.curso = curso;
+	}
+	
+	public String toString() {
+		return "Aluno : "+ nome + " - matricula : " + matricula + " - Curso : " + curso + " - " + ano;
+	}
+	
+	public void setCurso(String curso) {
+		this.curso = curso;
+	}
+	public void setAno(int ano) {
+		this.ano = ano;
+	}
+}
+
+2. Em outro Projeto, copie as classes criadas no exercício a) e faça o seguinte: crie uma classe Curso com a sigla, 
+o nome e os métodos necessários; altere o atributo da classe Aluno para que este seja uma instância da classe Curso 
+(não mais String); altere os métodos necessários na classe Aluno; altere a classe Principal criada no exercício a) para 
+que execute de acordo com as alterações.

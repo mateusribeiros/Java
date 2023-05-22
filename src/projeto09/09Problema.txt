@@ -1,0 +1,28 @@
+1 – Criar uma classe Pessoa com nome, sobrenome e nome intermediário
+
+2 – Criar o construtor da classe
+
+3 – Criar método para retornar o nome da Pessoa na forma:
+      Sobrenome, Letra do nome. Letra do nome intermediário. Ex: LOUREIRO, A. C.
+
+4 - Criar uma classe Livro com título (String), código (int) e autor(Pessoa), editora(String), edição, ano, 
+local(String) e gênero todos privados
+
+5 - Criar os métodos gets e sets para os atributos
+
+6 - Criar uma classe Principal que leia os dados de livros, enquanto o código for diferente de zero e crie livros para uma livraria.
+
+7 – Os livros devem ser armazenados em uma lista.
+
+8 - Crie um mecanismo para armazenar a quantidade de livros criados e ao final, mostrar esta quantidade. Obs: 
+utilize membros estáticos
+
+9 – Ao final o programa deve mostrar os dados de cada livro no seguinte formato:
+Código: Código do Livro 
+Título: Título do Livro
+Gênero : Gênero do Livro
+Referência : Autor (Sobrenome, 1ª Letra do Nome 1ª Letra do Nome Intermediário). 
+Título. 	         Edição. Local: Editora, ano.
+  	Ex: DEITEL, P.J. Java Como Programar. 8a. edição. São Paulo: Pearson, 2010.
+
+10 – Mostrar ainda o total de livros criados e os totais por gênero (podemos ter até 5 gêneros diferentes)

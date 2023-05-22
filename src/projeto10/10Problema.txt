@@ -1,0 +1,17 @@
+1 – Precisa-se criar um cadastro dos moradores de um edifício para que possam ter acesso através de um código ou digital. 
+Para isso, é preciso criar uma classe para representar os moradores do condomínio com informações importantes para o cadastro. 
+Essas informações são: nome, cpf, celular, data de nascimento, sexo, bloco, apartamento e código de acesso. Os moradores devem 
+ter também um atributo chamado código_sequencial que será gerado automaticamente, de forma sequencial, a cada nova instância criada
+ (usar atributo estático).
+
+2 – Criar também uma classe que será responsável pelo cadastro dos moradores. Essa classe deve permitir que o usuário entre 
+com os dados de cada morador e para cada morador, criar o objeto (instância) e mostra os dados do objeto criado, ou seja, 
+do morador cadastrado.
+
+3 – Criar uma outra classe que também será uma classe de cadastro porém utilizando um meio de armazenamento em vetores. 
+O usuário deve entrar com os dados do morador, o sistema cria a instância e armazena em uma lista de moradores  
+(usar ArrayList ou outro tipo de lista dinâmica) até o término a entrada de dados. Após o término, o sistema varre a 
+lista e mostra os dados de todos os moradores cadastrados.
+
+Obs: a entrada de dados do usuário deve ser através de um laço a cada cadastro deve ter uma pergunta se deseja ou não 
+cadastrar mais um morador.
